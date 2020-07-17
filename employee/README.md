@@ -6,7 +6,7 @@ GET /employees
 GET /employees/:id 
 	show only that employee object
 
-PUT /employees  
+POST /employees  
 	show object of employee (employeedao.insert)
     
 DELETE items/:id
