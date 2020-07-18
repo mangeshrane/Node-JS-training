@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import { EmpModel } from "./models/employee.model";
 
 const app = express();
-const url = "mongodb+srv://testuser:testuser@xpanxioncluster.m7uzk.mongodb.net/mydb";
+const url = "mongodb+srv://testuser:testuser@host/dbname";
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
