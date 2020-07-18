@@ -8,6 +8,6 @@ GET /employees/:id
 
 PUT /employees  
 	show object of employee (employeedao.insert)
-    
-DELETE items/:id
+
+DELETE employees/:id
 	show empid for deletion
